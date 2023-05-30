@@ -7,9 +7,9 @@ header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE,OPTIONS');
 
         public static function Conectar(){
             define('dbserver','localhost');
-            define('dbname','trello');
-            define('dbuser','root');
-            define('dbpassword','');
+            define('dbname','u217481_trello');
+            define('dbuser','u217481');
+            define('dbpassword','1913833');
            
             $opciones = [PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'];
             try{
